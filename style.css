@@ -1,0 +1,88 @@
+/* classes start with a full stop .
+    ids start with a #
+*/
+
+* {
+    /* capturing everything that isnt styled.
+        Wildcard...
+        in css, every line needs to be closed with a semi-colon
+    */
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    background-color:  red;
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 30px 20px;
+}
+
+.navbar ul li {
+    list-style-type: none;
+    display: inline-block;
+}
+
+.navbar li a{
+    /* inside of the navbar class... we are targeting specific elements
+    li a inside of the navbar
+    */
+    text-decoration: none;
+    background-color: red;
+    justify-content: space-between;
+    align-items: center; display: flex;
+    /* no decoration allows the link to to look like text. not underlines, just text */
+    padding : 15px 10px;
+}
+
+.container {
+    text-align:center;
+    display: flex;
+    justify-content: left;
+    flex-wrap: wrap;
+}
+
+.title {
+    width: 100%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.about-me{
+    width: 33.3%;
+    text-align: left;
+}
+
+.about-me p {
+    margin-bottom: 30px;
+    font-size: 20px;
+    color: black;
+}
+
+.button {
+    text-decoration: none;
+    color: black;
+    padding: 15px 20px;
+    background-color: red;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.footer {
+    text-align: center;
+    background-color: red;
+    color: black;
+    padding: 20px 50px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.image-container img {
+    width: 33.3%;
+}
+
+.image-container img{
+    width: 300px;
+}
